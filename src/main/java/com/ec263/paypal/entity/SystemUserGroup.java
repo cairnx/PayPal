@@ -26,7 +26,7 @@ public class SystemUserGroup implements Serializable {
     @NotNull
     String groupname;
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;    
 
     public SystemUserGroup() {
