@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>PayPal</title>
+    </h:head>
+    <h:body>
+        <h1>Hello from PayPal</h1>
+        
+        <h3>Login / Register</h3>
+        <h4>Go to a user page</h4>
+        <h:button value="Go to a user page" outcome="user"/>
+        <br/>
+        <h4>User Registration</h4>
+        <h:button value="Register" outcome="registration"/>
+        <br /><br /><br />
+        <h:form>
+            Logout: <h:commandButton value="Logout" action="#{loginBean.logout()}"/>
+        </h:form>
+    </h:body>
+</html>
+
